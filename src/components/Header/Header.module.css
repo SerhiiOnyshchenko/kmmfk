@@ -1,0 +1,56 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	display: inline-block;
+	background: url(../../images/svg/logo1.svg) no-repeat center;
+	width: 350px;
+	height: 150px;
+}
+.list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item {
+	position: relative;
+	margin: 0 5px;
+	cursor: pointer;
+	padding: 5px;
+}
+.item:hover {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.coledgeList,
+.studentsList,
+.sectionList,
+.cycleList {
+	opacity: 0;
+	padding: 10px;
+	min-width: 100px;
+	border: 1px solid black;
+	background: rgb(255, 255, 255);
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+.coledge:hover .coledgeList {
+	opacity: 1;
+	z-index: 10;
+}
+.students:hover .studentsList {
+	opacity: 1;
+	z-index: 10;
+}
+.section:hover .sectionList {
+	opacity: 1;
+	z-index: 10;
+}
+.cycle:hover .cycleList {
+	opacity: 1;
+	z-index: 10;
+}
