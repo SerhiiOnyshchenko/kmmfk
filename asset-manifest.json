@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kmmfk/static/css/main.058a57e2.css",
+    "main.js": "/kmmfk/static/js/main.ee2d4d7a.js",
+    "index.html": "/kmmfk/index.html",
+    "main.058a57e2.css.map": "/kmmfk/static/css/main.058a57e2.css.map",
+    "main.ee2d4d7a.js.map": "/kmmfk/static/js/main.ee2d4d7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.058a57e2.css",
+    "static/js/main.ee2d4d7a.js"
+  ]
+}
